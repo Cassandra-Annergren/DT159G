@@ -1,0 +1,73 @@
+{
+  "query": [
+    {
+      "code": "Sektor",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "0"
+        ]
+      }
+    },
+    {
+      "code": "Yrke2012",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1341",
+          "1342",
+          "2141",
+          "2142",
+          "2143",
+          "2144",
+          "2145",
+          "2146",
+          "2149",
+          "2181",
+          "3111",
+          "3112",
+          "3113",
+          "3114",
+          "3115",
+          "3116",
+          "3117",
+          "3119",
+          "3214",
+          "3215",
+          "3355"
+        ]
+      }
+    },
+    {
+      "code": "Kon",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "code": "UtbildningsNiva",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "6"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "000000BY"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}
