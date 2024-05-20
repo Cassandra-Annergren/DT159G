@@ -1,5 +1,5 @@
 /* Style for dropdown-menu */
-select#chartType,select#jobType, select#salaryType, select#sector {
+select#chartType,select#jobType, select#salaryType {
     display: flex; 
     background-color: #007BFF;
     color: white;
@@ -10,7 +10,7 @@ select#chartType,select#jobType, select#salaryType, select#sector {
   }
   
   @media (max-width: 768px) {
-    select#chartType,select#jobType, select#salaryType, select#sector {
+    select#chartType,select#jobType, select#salaryType{
       padding: 5px 10px;
       width: 80%;
     }
@@ -71,4 +71,5 @@ select#chartType,select#jobType, select#salaryType, select#sector {
         flex: 1 1 100%; /* Gör att varje element tar upp hela bredden */
     }
   }
+  
   
